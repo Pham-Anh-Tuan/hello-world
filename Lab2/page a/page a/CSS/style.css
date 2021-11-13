@@ -1,0 +1,227 @@
+body {
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#page .container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#page #section_normal_1 {
+    background: white;
+    border-bottom: 4px solid #d9d9d9;
+    height: 80px;
+}
+
+#page #section_normal_1 .alpha {
+    width: 50%;
+    float: left;
+}
+
+#page #section_normal_1 .alpha .logo {
+    margin-top: 20px;
+}
+
+#page #section_normal_1 .omega {
+    margin-top: 20px;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+#page #section_normal_1 .omega .htext_style {
+    float: right;
+    padding: 7px 20px;
+    height: 40px;
+}
+
+#page #section_normal_1 .omega .htext_style .pix_text {
+    vertical-align: middle;
+    color: #aeaeae;
+}
+
+#page #section_normal_1 .omega .social_button {
+    float: right;
+    padding: 0 5px;
+}
+
+
+#page #section_normal_4_2 {
+    background: #333333;
+    border-bottom: 4px solid #d9d9d9;
+    height: 670px;
+}
+
+#page #section_normal_4_2 .alpha {
+    width: 50%;
+    padding: 10%;
+
+}
+
+#page #section_normal_4_2 .alpha .img_style {
+    height: 100%;
+    float: left;
+}
+
+#page #section_normal_4_2 .omega {
+    width: 50%;
+    float: left;
+    margin-top: -110px;
+}
+
+#page #section_normal_4_2 .omega .btn_normal {
+    background: #2dc0e8;
+    padding: 15px;
+    border-radius: 5px;
+    border-bottom: 4px solid #1f778f;
+}
+
+#page #section_normal_4_2 .omega .bold_text {
+    color: white;
+    text-decoration: none;
+}
+
+#page #section_normal_4_2 .bold_text {
+    font-weight: bolder;
+}
+
+#page #section_normal_4_2 .big_text {
+    font-size: 120%;
+}
+
+#page #section_normal_4_2 .blue_text {
+    color: #2eaacc;
+}
+
+#page #section_normal_4_2 .big_title {
+    width: 510px;
+    height: 110px;
+    font-size: 370%;
+    color: white;
+    margin: 10px 0px;
+}
+
+#page #section_normal_4_2 .normal_text {
+    font-size: 165%;
+}
+
+#page #section_normal_4_2 .light_gray {
+    color: #727272;
+}
+
+/* section 3 */
+#page #section_normal_6 {
+    height: 390px;
+    background: #eeeeee;
+    border-bottom: #e5e5e5 solid 6px;
+    margin-top: -18px;
+    padding: 50px;
+}
+
+#page #section_normal_6 .L1_style {
+    color: #6b6b6b;
+    font-size: 160%;
+    text-align: center;
+}
+
+#page #section_normal_6 .L2_style {
+    color: #b2b2b2;
+    font-size: 90%;
+    text-align: center;
+}
+#page #section_normal_6 .stbox {
+    margin-top: 50px;
+    background: white;
+}
+#page #section_normal_6 .alpha {
+    float: left;
+    height: 145px;
+    width: 576px;
+    margin-right: 13px;
+    border-radius: 5px;
+    border-bottom: #e5e5e5 solid 3px;
+}
+#page #section_normal_6 .omega {
+    float: left;
+    height: 145px;
+    width: 576px;
+    margin-left: 13px;
+    border-radius: 5px;
+    border-bottom: #e5e5e5 solid 3px;
+}
+#page #section_normal_6 .stbox .b_style {
+    background: #f5f5f5;
+    width: 115px;
+    height: 145px;
+    float: left;
+}
+#page #section_normal_6 .stbox .b_style .logo_style {
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+#page #section_normal_6 .stbox .txt_style {
+    font-size: 150%;
+    width:450px;
+    float: left;
+    margin: 15px 5px;
+}
+#page #section_normal_6 .stbox .txt_style .pix_text {
+    color: #95c5fd;
+}
+/* section 4 */
+#page #section_agency_5 {
+    height: 567px;
+}
+#page #section_agency_5 .center_text {
+    text-align: center;
+}
+#page #section_agency_5 .center_text .f1_style {
+    font-size: 190%;
+    color: #629f6f;
+    margin-top: 88px;
+}
+#page #section_agency_5 .center_text .f2_style {
+    color: #b1b1b1;
+    font-size: 150%;
+    width: 660px;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+#page #section_agency_5 .center_text .get_2_btn .slow_fade {
+    color: #629f6f;
+    font-weight: bolder;
+    font-size: 140%;
+    text-decoration: none;
+}
+#page #section_agency_5 .center_text .get_2_btn {
+    border: solid #629f6f 5px ;
+    color: #629f6f;
+    padding: 30px;
+
+}
+#page #section_agency_5 .center_text .edit-top {
+    margin-top: 95px;
+}
+#page #section_agency_5 .center_text .edit-top .pixfort_st {
+    color: #629f6f;
+    font-weight: bold;
+}
+#page #section_agency_5 .center_text .center_btn {
+    margin-top: 88px;
+}
+
+
+

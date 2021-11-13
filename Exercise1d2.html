@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 1(layout2)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, tahona,serif;
+            font-size: 15px;
+        }
+
+        #container {
+            background: white;
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #container #header {
+            background: blue;
+            height: 100px;
+        }
+        #container nav {
+            background: red;
+            height: 40px;
+        }
+        p {
+            margin: 0;
+        }
+        #container #contain {
+            background: #bcd0c7;
+            overflow: auto;
+        }
+        #container #contain #left {
+            width: 25%;
+            background: orange;
+            float: left;
+            clear: right;
+        }
+        #container #contain #right {
+            width: 75%;
+            background: hotpink;
+            float: right;
+            clear: none;
+        }
+
+        #container #footer {
+            background: #20c997;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <section id="header"><p>Header</p></section>
+    <nav><p> Nav bar</p></nav>
+    <section id="contain">
+        <div id="left">
+            <p> Left Contain</p>
+            <p> Left Contain</p>
+        </div>
+        <div id="right">
+            <p> Right Contain</p>
+        </div>
+    </section>
+    <section id="footer"><p>Footer </p></section>
+
+
+</div>
+</body>
+</html>
